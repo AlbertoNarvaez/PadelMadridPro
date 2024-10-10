@@ -19,14 +19,14 @@ public class PantallaInicioSesion {
     // Método para mostrar la pantalla de inicio de sesión
     public void mostrarPantallaInicioSesion(Stage primaryStage) {
         // Cargamos la imagen de fondo, ajustando la transparencia
-        Image imagenFondo = new Image("C:\\Users\\Alberto\\OneDrive - Universidad Antonio De Nebrija\\Nebrija\\Técnicas de Programación Avanzada\\APP PADEL\\PadelMadridPRO\\imagen\\pantallainiciosesion.png");
+        Image imagenFondo = new Image("C:\\Users\\alber\\OneDrive - Universidad Antonio De Nebrija\\Nebrija\\Técnicas de Programación Avanzada\\APP PADEL\\PadelMadridPRO\\imagen\\pantallainiciosesion.png");
         ImageView imagenView = new ImageView(imagenFondo);
         imagenView.setFitWidth(600);
         imagenView.setFitHeight(600);
         imagenView.setOpacity(0.7); // Ajusta la transparencia si es necesario
 
         // Flecha para volver atrás
-        ImageView flechaAtras = new ImageView(new Image("C:\\Users\\Alberto\\OneDrive - Universidad Antonio De Nebrija\\Nebrija\\Técnicas de Programación Avanzada\\APP PADEL\\PadelMadridPRO\\imagen\\flechanegra.png"));
+        ImageView flechaAtras = new ImageView(new Image("C:\\Users\\alber\\OneDrive - Universidad Antonio De Nebrija\\Nebrija\\Técnicas de Programación Avanzada\\APP PADEL\\PadelMadridPRO\\imagen\\flechanegra.png"));
         flechaAtras.setFitHeight(30);
         flechaAtras.setFitWidth(30);
         Button botonAtras = new Button("", flechaAtras);
