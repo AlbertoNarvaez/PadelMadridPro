@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Programa Padel" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="padelmadridpro.Main" />
+    <module name="PadelMadridPro" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
